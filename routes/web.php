@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [Empleados::class, 'index']);
+Route::get('crear-empleado', [Empleados::class, 'create']);

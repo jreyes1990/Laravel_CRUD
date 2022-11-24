@@ -7,6 +7,8 @@
   <title>CRUD</title>
 </head>
 <body>
-  <button>Crear empleado</button>
+  <a href="{{ url('crear-empleado') }}">
+    <button>Crear empleado</button>
+  </a>
 </body>
 </html>
